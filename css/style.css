@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.logo,
+.new-todo {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo > img {
+    max-width: 25%;
+}
+
+.new-todo > input {
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.new-todo > button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.lista {
+    width: 100%;
+    margin: 100px 0 0 0 ;
+    background-color: rgb(231, 233, 235);
+}
+
+.lista li {
+    border-bottom: 1px solid lightgray;
+    font-size: 20px;
+    padding: 5px 40px;
+    list-style: none;
+}
+
+.lista i {
+    float: right;
+}
+
+#niente {
+    text-align: center;
+}
